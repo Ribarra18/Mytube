@@ -1,0 +1,52 @@
+<table>
+	<tr>
+		<td align="left">
+			<a href="/index.html">Home</a>
+		</td>
+		<td align="left">
+			<a href="/Pages/Cats.html">Cats</a>
+		</td>
+		<td align="left">
+			<a href="/Pages/Dogs.html">Dogs</a>
+		</td>
+		<td align="left">
+			<a href="/Pages/SeaLions.html">Sea Lions</a>
+		</td>
+		<td align="left">
+			<a href="/form.html">Upload</a>
+		</td>
+	</tr>
+</table>
+<form>
+	<label for="video-title">Title:</label>
+	<input type="text" id="video-title" name="video-title" required>
+		<br>
+			<br>
+				<label for="video-description">Description:</label>
+				<textarea id="video-description" name="video-description" required></textarea>
+				<br>
+					<br>
+						<label for="video-category">Category:</label>
+						<select id="video-category" name="video-category" required>
+							<option value="">--Please select a category--</option>
+							<option value="music">Music</option>
+							<option value="sports">Sports</option>
+							<option value="animals">Animals</option>
+						</select>
+						<label>Visibility:</label>
+						<label for="public">
+							<input type="radio" id="public" name="visibility" value="public" checked> Public
+  
+							</label>
+							<label for="private">
+								<input type="radio" id="private" name="visibility" value="private"> Private
+  
+								</label>
+								<br>
+									<br>
+										<label for="video-file">Choose a file:</label>
+										<input type="file" id="video-file" name="video-file" accept="video/*" required>
+											<br>
+												<br>
+													<input type="submit" value="Upload">
+													</form>
