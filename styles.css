@@ -1,6 +1,19 @@
 body {background-color: #B91646;}
 h1 {text-align: center; border-style: solid; border-width: 2px; background-color: #DFD8CA;margin-left: 25%;margin-right: 25%;}
+
 h2 {text-align: center; background-color: tomato; margin-left: 40%; margin-right: 40%;}
 .hello {border-radius: 90%;}
+.gatos1 {background-color: pink; font-family: 'Sofia', cursive;}
 table{align-items:flex-start; border-style: groove; border-color:#105652 ;background-color: #FBF3E4;}
+.chicken {color: rgb(34, 34, 34); border: dashed;} 
 iframe {width: 400px; height: 200px; border: 10px solid; display: flex;}
+
+h3 {color: darkcyan; background-color: aqua; text-align: center; border-radius: 20%; margin-left: 35%; margin-right: 35%;}
+
+table {background-color: #9c2347;
+}
+hr {border-style:dashed; color: chartreuse;}
+.atrocity {color:#DFD8CA; text-align: center; margin-left: 5%; margin-right: 5%;}
+div {margin-left: 30%; margin-right: 30%;}
+.woof {color: #FBF3E4; margin-left: 5%; margin-right: 5%;}
+.video-listC{margin-left: 24%; margin-right: 26%;}
